@@ -1,0 +1,511 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Astro Services",
+    "stones": "Stones",
+    "contact": "Contact",
+    "book_reading": "Book Reading"
+  },
+  "brand": {
+    "name": "Future Guide",
+    "tagline": "Your Cosmic Path to Clarity & Destiny"
+  },
+  "hero": {
+    "welcome": "Welcome to Future Guide Astrology",
+    "discover": "DISCOVER YOUR FUTURE WITH ANCIENT WISDOM"
+  },
+  "about": {
+    "subtitle": "Welcome to Future Guide",
+    "heading": "We Believe The <1>Universe</1> Always Hears You.",
+    "desc": "Our expert Numerologists, Soul Readers, and Tarot Readers help you reconnect with your inner light and cosmic purpose. With over 18 years of divine guidance, we've transformed thousands of lives through ancient wisdom and spiritual insight.",
+    "list": [
+      "Expert Astrologers & Readers",
+      "Personalized Spiritual Remedies"
+    ],
+    "quote": "\"Tarot belongs to the world of magic — and magic is real if you truly believe.\"",
+    "years": "18+",
+    "yearsText": "Years of Trust"
+  },
+  "services": {
+    "title": "Our Divine Services",
+    "desc": "Discover profound truths and practical guidance tailored to your unique spiritual journey.",
+    "cards": [
+      {
+        "title": "Tarot Reading",
+        "desc": "Gain deep insights into your past, present, and future through intuitive Tarot spreads."
+      },
+      {
+        "title": "Numerology Consultation",
+        "desc": "Unlock the power of numbers. Name analysis, destiny numbers, and personal forecasts."
+      },
+      {
+        "title": "Soul Reading",
+        "desc": "Understand deeply rooted energetic patterns, past life karma, and your soul's true purpose."
+      },
+      {
+        "title": "Crystal Healing",
+        "desc": "Healing stones and crystal therapy to cleanse aura and promote emotional balance."
+      }
+    ]
+  },
+  "horoscope": {
+    "title": "Discover Your Daily Rasi",
+    "desc": "Select your zodiac sign to reveal personalized daily insights and authentic cosmic guidance from our experts.",
+    "signs": [
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer",
+      "Leo",
+      "Virgo",
+      "Libra",
+      "Scorpio",
+      "Sagittarius",
+      "Capricorn",
+      "Aquarius",
+      "Pisces"
+    ]
+  },
+  "faq": {
+    "title": "Questions & Clarity",
+    "desc": "Find out why thousands choose Future Guide for their spiritual journey.",
+    "items": [
+      {
+        "q": "Why Is Astrology So Accurate?",
+        "a": "Astrology relies on precisely calculating planetary positions at the time of your birth to map out your unique life path and inherent traits."
+      },
+      {
+        "q": "Why Choose Future Guide?",
+        "a": "With over 18 years of experience, we provide deep, authentic psychic readings, tarot consultations, and gemstone recommendations."
+      },
+      {
+        "q": "Are Astrology Predictions True?",
+        "a": "Yes, when interpreted by experienced experts. Astrology shows probabilities and pathways, giving you the power to shape your destiny."
+      },
+      {
+        "q": "How Reliable is Future Guide?",
+        "a": "Thousands of satisfied clients worldwide trust us for our accurate readings and transformative spiritual guidance."
+      },
+      {
+        "q": "Do You Offer Online Consultations?",
+        "a": "Absolutely! We provide secure and confidential online psychic and tarot readings accessible from anywhere in the world."
+      },
+      {
+        "q": "How Can Gemstones Help Me?",
+        "a": "Premium, authentic gemstones emit specific vibrational frequencies that align with your aura to bring peace, prosperity, and health."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Cosmic Success Stories",
+    "desc": "Hear from our community of souls who have found guidance, peace, and direction.",
+    "items": [
+      {
+        "name": "Sarah Jenkins",
+        "role": "Entrepreneur",
+        "text": "Future Guide provided me with an incredibly accurate tarot reading. The insights I gained helped me navigate a tricky career move. Truly magical experience!"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Software Engineer",
+        "text": "I was skeptical at first, but the numerology consultation was spot on. Highly recommend their services for anyone seeking life clarity."
+      },
+      {
+        "name": "Emma Woodhouse",
+        "role": "Artist",
+        "text": "The crystal healing session brought me so much peace. The reader was compassionate and the environment was just divinely set up."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Cosmic Wisdom Blog",
+    "desc": "Explore our latest articles on astrology, tarot, and spiritual healing.",
+    "items": [
+      {
+        "title": "Understanding Your Moon Sign",
+        "category": "Astrology",
+        "time": "5 Min Read",
+        "excerpt": "While your sun sign dictates your core personality, your moon sign represents your emotional inner world. Learn how to interpret it."
+      },
+      {
+        "title": "The Power of Amethyst Crystals",
+        "category": "Healing",
+        "time": "4 Min Read",
+        "excerpt": "Discover the calming and spiritual properties of amethyst, and how bringing it into your home can transform energies."
+      },
+      {
+        "title": "A Beginner's Guide to Tarot Spreads",
+        "category": "Tarot",
+        "time": "6 Min Read",
+        "excerpt": "Start your tarot journey with these simple 3-card spreads designed to give you clarity and daily guidance."
+      }
+    ]
+  },
+  "servicesPage": {
+    "header": {
+      "title": "Astro",
+      "titleHighlight": "Services",
+      "subtitle": "Explore our comprehensive suite of esoteric sciences and holistic therapies designed to illuminate your ultimate destiny."
+    },
+    "categories": [
+      {
+        "id": "tarot",
+        "title": "Tarot & Nakshatra"
+      },
+      {
+        "id": "numerology",
+        "title": "Numerology"
+      },
+      {
+        "id": "soul",
+        "title": "Soul Reading"
+      },
+      {
+        "id": "healing",
+        "title": "Healing Therapies"
+      }
+    ],
+    "serviceData": {
+      "tarot": {
+        "title": "Tarot & Nakshatra Reading",
+        "desc": "Unveil the mystical tapestry of your life through deep intuitive card pulls and celestial Nakshatra alignment. Receive profound clarity on your current crossroads.",
+        "features": [
+          {
+            "name": "Nakshatra Reading",
+            "detail": "Deep dive into your birth star for profound personality and life path understanding."
+          },
+          {
+            "name": "Love & Relationship",
+            "detail": "Gain clarity on soulmate connections, twin flames, and resolving marital disputes."
+          },
+          {
+            "name": "Career & Wealth Tarot",
+            "detail": "Navigate professional crossroads, business decisions, and financial abundance blocks."
+          },
+          {
+            "name": "Yearly Forecast",
+            "detail": "A comprehensive 12-month spread detailing opportunities and challenges ahead."
+          },
+          {
+            "name": "Yes/No Direct Answers",
+            "detail": "Quick, precise intuitive answers using specific spread layouts for urgent dilemmas."
+          }
+        ]
+      },
+      "numerology": {
+        "title": "Numerology & Number Science",
+        "desc": "Vibrate on the frequency of success. We recalibrate your names, numbers, and dates to ensure they perfectly align with your ultimate life path.",
+        "features": [
+          {
+            "name": "Name Correction",
+            "detail": "Aligning your name spelling (via Chaldean/Pythagorean methods) to attract positive destiny."
+          },
+          {
+            "name": "Business Numerology",
+            "detail": "Creating powerful brand names and launch dates to maximize commercial success."
+          },
+          {
+            "name": "Mobile Number Analysis",
+            "detail": "Checking and correcting your daily communication vibration for prosperity."
+          },
+          {
+            "name": "Lucky Colors & Dates",
+            "detail": "Your personalized matrix of highly favorable elements for important daily usage."
+          },
+          {
+            "name": "Destiny & Life Path",
+            "detail": "Decoding your core soul numbers to understand what you were put on earth to achieve."
+          }
+        ]
+      },
+      "soul": {
+        "title": "Soul Reading & Connection",
+        "desc": "Peer past the physical veil. Understand the deeply rooted energetic patterns, past life karma, and invisible threads that connect you to others.",
+        "features": [
+          {
+            "name": "Subconscious Mind Reading",
+            "detail": "Bypassing the ego to reveal hidden fears, desires, and energetic blocks."
+          },
+          {
+            "name": "Past Life Triggers",
+            "detail": "Understanding inexplicably strong reactions and karmic debts carrying over from previous incarnations."
+          },
+          {
+            "name": "Soul Connection (Twin Flame)",
+            "detail": "Analyzing the energetic cords and divine purpose between you and prominent figures in your life."
+          },
+          {
+            "name": "Aura Scanning",
+            "detail": "Reading the colors and strength of your energy field to detect vulnerabilities."
+          },
+          {
+            "name": "Karmic Path Blueprint",
+            "detail": "Connecting your past deeds to your present challenges and future liberation."
+          }
+        ]
+      },
+      "healing": {
+        "title": "Holistic Energy Healing",
+        "desc": "Restore balance to your body, mind, and soul. Dispel negative attachments and invite pure, high-frequency energy back into your aura.",
+        "features": [
+          {
+            "name": "Crystal Recommendations",
+            "detail": "Personalized gemstone prescriptions to absorb negativity and amplify your manifesting power."
+          },
+          {
+            "name": "Candle Manifestation",
+            "detail": "Ritualistic energy work focused on specific intents like love, career clearing, or protection."
+          },
+          {
+            "name": "Chakra Balancing",
+            "detail": "Scanning and clearing blockages in your 7 main energy centers to restore optimal flow."
+          },
+          {
+            "name": "Emotional Blockage Release",
+            "detail": "Energetic cord-cutting and trauma release so you can finally move forward."
+          },
+          {
+            "name": "Distance Reiki",
+            "detail": "Sending targeted, high-frequency healing energy across space and time directly to your aura."
+          }
+        ]
+      }
+    },
+    "sacredVision": "Sacred Vision",
+    "bookBtn": "Book A Personal Session"
+  },
+  "stonesPage": {
+    "header": {
+      "title": "Cosmic",
+      "titleHighlight": "Crystals",
+      "subtitle": "Harness the frequencies of the universe through our most potent astrological gemstones."
+    },
+    "categories": [
+      {
+        "id": "gem",
+        "title": "Navaratnas & Crystals",
+        "subtitle": "Gem Stones"
+      },
+      {
+        "id": "precious",
+        "title": "Mukhya Ratna",
+        "subtitle": "Precious Stones"
+      },
+      {
+        "id": "semi",
+        "title": "Uparatnas",
+        "subtitle": "Semi-Precious Stones"
+      }
+    ],
+    "stoneData": {
+      "gem": {
+        "title": "Navaratnas & Healing Crystals",
+        "desc": "The primary cosmic amplifiers. These natural gemstones are directly tied to the 9 astrological planets, capable of channeling precise cosmic frequencies into your aura.",
+        "features": [
+          {
+            "name": "Ruby (Manik)",
+            "sub": "Sun (Surya)",
+            "detail": "Ignites vitality, leadership, and unshakeable confidence."
+          },
+          {
+            "name": "Pearl (Moti)",
+            "sub": "Moon (Chandra)",
+            "detail": "Brings emotional stability, profound peace, and intuition."
+          },
+          {
+            "name": "Red Coral (Moonga)",
+            "sub": "Mars (Mangal)",
+            "detail": "Boosts immediate courage, energetic drive, and success."
+          },
+          {
+            "name": "Emerald (Panna)",
+            "sub": "Mercury (Budha)",
+            "detail": "Sharpens intellect, communication, and business acumen."
+          },
+          {
+            "name": "Yellow Sapphire (Pukhraj)",
+            "sub": "Jupiter (Guru)",
+            "detail": "Attracts divine wisdom, wealth, and spiritual growth."
+          },
+          {
+            "name": "Diamond (Heera)",
+            "sub": "Venus (Shukra)",
+            "detail": "Enhances romantic love, pure luxury, and artistic talents."
+          },
+          {
+            "name": "Blue Sapphire (Neelam)",
+            "sub": "Saturn (Shani)",
+            "detail": "Promotes strict discipline, career stability, and longevity."
+          },
+          {
+            "name": "Hessonite (Gomed)",
+            "sub": "Rahu",
+            "detail": "Overcomes deep confusion and sudden unforeseen obstacles."
+          },
+          {
+            "name": "Cat's Eye (Lehsunia)",
+            "sub": "Ketu",
+            "detail": "Offers spiritual insight and ultimate protection from hidden enemies."
+          }
+        ]
+      },
+      "precious": {
+        "title": "Mukhya Ratna (Precious Stones)",
+        "desc": "The Big Five. These five stones are universally considered the most potent, most valuable, and highest-frequency resonators for planetary influence and life transformation.",
+        "features": [
+          {
+            "name": "Ruby (Manik)",
+            "sub": "The Stone of Kings",
+            "detail": "Unlocks massive career success, authority, and unbreakable leadership."
+          },
+          {
+            "name": "Emerald (Panna)",
+            "sub": "The Stone of Mind",
+            "detail": "Maximizes logic, advanced commerce skills, and powerful speech."
+          },
+          {
+            "name": "Yellow Sapphire (Pukhraj)",
+            "sub": "The Stone of Grace",
+            "detail": "Ensures profound divine grace, fertility, and continuous prosperity."
+          },
+          {
+            "name": "Diamond (Heera)",
+            "sub": "The Stone of Bliss",
+            "detail": "Unlocks blissful relationships, absolute luxury, and physical beauty."
+          },
+          {
+            "name": "Blue Sapphire (Neelam)",
+            "sub": "The Stone of Justice",
+            "detail": "Enforces cosmic justice, karma balancing, and supreme professional discipline."
+          }
+        ]
+      },
+      "semi": {
+        "title": "Uparatnas (Semi-Precious Stones)",
+        "desc": "Powerful astrological substitutes and specialized healers. Perfect for targeted emotional alignment and serving as secondary resonators for planetary alignment.",
+        "features": [
+          {
+            "name": "Citrine (Sunela)",
+            "sub": "Substitute: Yellow Sapphire",
+            "detail": "Aids massive wealth manifestation and profound self-confidence."
+          },
+          {
+            "name": "Amethyst (Jamunia)",
+            "sub": "Substitute: Blue Sapphire",
+            "detail": "Promotes extreme sobriety, third-eye focus, and stress reduction."
+          },
+          {
+            "name": "Peridot (Ghrat Mani)",
+            "sub": "Substitute: Emerald",
+            "detail": "Brings pure luck, emotional healing, and abundance."
+          },
+          {
+            "name": "Moonstone (Chandramani)",
+            "sub": "Substitute: Pearl",
+            "detail": "Perfectly balances chaotic emotions and sharpens intuition."
+          },
+          {
+            "name": "Garnet (Tamra)",
+            "sub": "Substitute: Ruby",
+            "detail": "Boosts physical passion, vitality, and root chakra health."
+          },
+          {
+            "name": "Aquamarine (Beruj)",
+            "sub": "Throat Chakra",
+            "detail": "Enhances fluid communication and deep mental clarity."
+          },
+          {
+            "name": "Tiger's Eye",
+            "sub": "Protection",
+            "detail": "The ultimate stone for unbreakable willpower and focus."
+          },
+          {
+            "name": "Lapis Lazuli",
+            "sub": "Cosmic Connection",
+            "detail": "Unlocks deep inner peace and celestial connection."
+          },
+          {
+            "name": "Malachite",
+            "sub": "Heart Chakra",
+            "detail": "Aids in massive personal and emotional transformation."
+          }
+        ]
+      }
+    },
+    "label": "Sacred Cosmic Specimen"
+  },
+  "contact": {
+    "hero": {
+      "title": "The Universe",
+      "titleHighlight": "Hears You",
+      "subtitle": "Reach out today — your cosmic journey awaits."
+    },
+    "marquee": "NUMEROLOGY ✦ TAROT READING ✦ SOUL READING ✦ SPIRITUAL GUIDANCE ✦ ",
+    "quote": {
+      "title": "Divine Message",
+      "text": "\"Tarot belongs to the world of magic — and magic is real if you truly believe.\"",
+      "author": "S. Mahalakshmi",
+      "role": "Numerologist & Tarot Expert"
+    },
+    "cards": {
+      "voice": {
+        "title": "Phone Call",
+        "subtitle": "+91 90033 98732",
+        "btn": "Contact Now"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "Direct Spiritual Connection",
+        "btn": "Connect Now"
+      },
+      "mail": {
+        "title": "Ethereal Mail",
+        "subtitle": "info@futureguideastrology.com",
+        "btn": "Email Us"
+      }
+    },
+    "address": {
+      "subtitle": "Our Sacred Sanctorum",
+      "title": "Visit Us In Person",
+      "text": "62/67, Uppara Street, Coimbatore 641 001",
+      "badge": "Open for Divine Consultation",
+      "btn": "Get Directions"
+    }
+  },
+  "footer": {
+    "text": "Reconnect with your inner light and cosmic purpose. Elevate your spiritual journey with ancient wisdom and expert psychic readings.",
+    "linksTitle": "Quick Links",
+    "contactTitle": "Contact Us",
+    "address": "62/67, Uppara Street,<br/>Coimbatore 641001",
+    "copyright": "© 2026 Future Guide. All rights reserved. Designed for excellence.",
+    "developedBy": "Developed by"
+  },
+  "aboutStory": {
+    "title1": "Our ",
+    "title2": "Story",
+    "p1": "Founded in 2007, Future Guide was born from a deep conviction that the stars not only map our destinies but also offer compassionate guidance to navigate them.",
+    "p2": "What began as a personal mission to share ancient wisdom has grown into a trusted sanctuary for seekers worldwide. Over 18+ years, we have walked alongside thousands — through moments of uncertainty, transformation, and awakening — always honoring the sacred connection between the cosmos and the human soul.",
+    "badgeTitle": "18+ Years",
+    "badgeSub": "Of Divine Guidance"
+  },
+  "aboutPhilosophy": {
+    "title1": "Wisdom & ",
+    "title2": "Empathy",
+    "teamTitle": "Our Team & Approach",
+    "teamP1": "Our multidisciplinary team brings together certified masters in intuitive Tarot interpretation, precise Numerology, and soul-level readings.",
+    "teamP2": "Each practitioner combines rigorous traditional training with modern empathy, ensuring every session is deeply personal, ethical, and empowering.",
+    "philTitle": "Our Philosophy",
+    "philP1": "At Future Guide, spirituality is not about fear or rigid rules; it is about love, alignment, and liberation. We blend ancient sciences with heart-centered insight to help you release blocks and embrace your divine purpose.",
+    "philP2": "Every consultation is a co-creation — between you, the cosmos, and our dedicated guides."
+  },
+  "waMessage": "Hi, I would like to book a reading session.",
+  "aboutCommitment": {
+    "title": "Our Commitment",
+    "text": "Future Guide is more than astrology — it is a sacred space where ancient wisdom meets modern life challenges. We are committed to helping you rediscover your inner light and walk your highest path with confidence and grace."
+  },
+  "aboutHero": {
+    "title": "About Us",
+    "subtitle": "Illuminating Paths Since 2007"
+  }
+}

@@ -1,0 +1,125 @@
+.features-section {
+  background: linear-gradient(135deg, #662D8C 0%, #ED1E79 100%); /* Creative Electric Purple to Hot Pink */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.features-section .heading-lg, .features-section .text-lead {
+  color: #fff;
+}
+
+.faq-accordion-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between questions */
+}
+
+.faq-accordion-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-md);
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* NO overflow:hidden here — it was clipping the answer */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.faq-accordion-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateX(5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.faq-accordion-card.open {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: #fff;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.faq-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.faq-icon {
+  color: #FFD700; /* Bright gold icon */
+}
+
+.faq-accordion-card.open .faq-icon {
+  color: #ED1E79; /* Pink when open */
+}
+
+.faq-question-text {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff; /* Palichunu bright white */
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.faq-accordion-card.open .faq-question-text {
+  color: #111; /* Dark text when expanded to contrast with white card */
+  text-shadow: none;
+}
+
+.faq-chevron {
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.faq-accordion-card.open .faq-chevron {
+  color: #ED1E79;
+}
+
+.faq-body-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faq-body-container.expanded {
+  max-height: 300px; /* Enough for the longest answer */
+}
+
+.faq-body-content {
+  padding: 0 2rem 1.8rem 2rem;
+}
+
+.faq-body-content p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .features-section {
+    padding: 4rem 0;
+  }
+  .faq-header {
+    padding: 1.2rem 1.5rem;
+  }
+  .faq-question-text {
+    font-size: 1.05rem;
+  }
+  .faq-body-content {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+  .faq-body-content p {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,315 @@
+/* =========================================================
+   About Page - Premium Allocated Design
+   ========================================================= */
+
+.about-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #05020a;
+  font-family: var(--font-body);
+}
+
+/* -----------------------------------------------------------
+   1. Cinematic Hero Section
+   ----------------------------------------------------------- */
+.hero-about {
+  position: relative;
+  width: 100%;
+  height: 85vh; /* Larger for more impact */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0; /* Let it sit under glass navbar */
+}
+
+.hero-video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  z-index: 0;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-about::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(10, 5, 20, 0.4) 0%, #05020a 100%);
+  z-index: 1;
+}
+
+.hero-about-content {
+  position: relative;
+  z-index: 2;
+  padding: 3rem;
+  border-radius: 40px;
+}
+
+.hero-about-title {
+  font-family: var(--font-heading);
+  font-size: clamp(3.5rem, 8vw, 6rem);
+  background: linear-gradient(135deg, #FFD700 0%, #FFA07A 50%, #FF69B4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.3));
+  font-weight: 800;
+}
+
+.hero-about-subtitle {   
+  font-size: 1.5rem;
+  color: #E6E6FA;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* -----------------------------------------------------------
+   2. Our Story Section (Unique Allocation: Deep Violet Glow)
+   ----------------------------------------------------------- */
+.about-split-section {
+  width: 100%;
+  padding: 180px 0;
+  background: radial-gradient(circle at -10% 30%, rgba(75, 0, 130, 0.4) 0%, transparent 50%),
+              radial-gradient(circle at 110% 70%, rgba(212, 175, 55, 0.15) 0%, transparent 50%),
+              linear-gradient(135deg, #05020a 0%, #0d041a 100%);
+  position: relative;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.2);
+}
+
+.about-split-section::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: radial-gradient(circle at 10% 50%, rgba(255, 105, 180, 0.1) 0%, transparent 40%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-split-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.about-text-content h2 {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  color: #FFF;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.about-text-content h2 span {
+  background: linear-gradient(90deg, #50C878 0%, #FFD700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text-content p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 2;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.about-visual-box {
+  position: relative;
+  height: 550px;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience-card {
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  padding: 35px;
+  background: rgba(20, 10, 30, 0.9) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* -----------------------------------------------------------
+   3. Philosophy Section (Unique Allocation: Cosmic Indigo)
+   ----------------------------------------------------------- */
+.team-philosophy-section {
+  width: 100%;
+  padding: 180px 0;
+  background: radial-gradient(circle at 120% 20%, rgba(0, 255, 255, 0.2) 0%, transparent 50%),
+              radial-gradient(circle at -20% 80%, rgba(75, 0, 130, 0.3) 0%, transparent 50%),
+              linear-gradient(180deg, #05020a 0%, #080a12 100%);
+  position: relative;
+}
+
+.team-philosophy-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("https://www.transparenttextures.com/patterns/stardust.png");
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.team-philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.premium-glass-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 60px;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+.premium-glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5), transparent);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.premium-glass-card:hover::before {
+  opacity: 1;
+}
+
+.premium-glass-card:hover {
+  transform: translateY(-20px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4);
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 20px;
+  margin-bottom: 35px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  overflow: hidden;
+}
+
+.card-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.premium-glass-card h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 25px;
+  font-family: var(--font-heading);
+}
+
+.premium-glass-card p {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.9;
+  font-size: 1.1rem;
+}
+
+
+.commitment-section-wrapper {
+  width: 100%;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.commitment-banner {
+  padding: 160px 2rem;
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.3) 0%, transparent 70%),
+              linear-gradient(135deg, #1a0a05 0%, #2a1a0a 100%);
+  text-align: center;
+  position: relative;
+  border-top: 2px solid rgba(212, 175, 55, 0.4);
+}
+
+.commitment-banner h2 {
+  font-size: 4.5rem;
+  background: linear-gradient(180deg, #fff 0%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.5rem;
+  font-weight: 800;
+}
+
+.commitment-banner p {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: rgba(255, 215, 0, 0.8);
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* --- Helper Classes --- */
+.icon-badge {
+  background: rgba(212, 175, 55, 0.2);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.badge-title {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #ffd700;
+}
+
+.badge-subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.badge-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .about-split-grid, .team-philosophy-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .about-text-content h2 { font-size: 3rem; }
+  .about-visual-box { height: 400px; }
+}
